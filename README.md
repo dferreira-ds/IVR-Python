@@ -10,7 +10,7 @@ The first thing is you need to make sure to install the Twilio library and Flask
 
 ### Step two
 
-Save the ivr_test.py script on your computer. From this example, you will notice that you get different replies depending on your answer, see the "if" conditional. You may add the <Dial> verb if you want the call to be routed to another phone number, more info can be found here https://www.twilio.com/docs/voice/twiml/dial.
+Save the ivr_test.py script on your computer. From this example, you will notice that you get different replies depending on your answer, see the "if" conditional. You may add the "<Dial>" verb if you want the call to be routed to another phone number, more info can be found here https://www.twilio.com/docs/voice/twiml/dial.
 
 ### Step three
 
