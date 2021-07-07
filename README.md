@@ -17,15 +17,16 @@ Save the ivr_test.py script on your computer. From this example, you will notice
 Then, if you are running windows or mac, you need to open the command prompt or the terminal, respectively, and navigate to where you saved the file. 
 
 For windows, you need to run the following:
-
+```
 set FLASK_APP=ivr_test.py
 flask run
-
+```
+  
 For mac:
-
+```
 export FLASK_APP=ivr_test.py
 flask run
-
+```
 ### Step four
   
 Up to this point, you have made your web application available in your localhost. Now, you need to make it public on internet. If you do not have a server available at the moment, I would recommend to check out ngrok. This application allows you to host your web app on the internet for 2 hours (for free accounts) so you can test your application. In this Twilio blog https://www.twilio.com/blog/2013/10/test-your-webhooks-locally-with-ngrok.html you will be able to see how you can use ngrok and how to configure your webhook on your Twilio console.
