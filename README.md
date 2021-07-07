@@ -5,8 +5,8 @@ This repository shows how to create a simple IVR using Python and Twilio. Make s
 
 The first thing is you need to make sure to install the Twilio library and Flask framework.
 
-1. To install Twilio library, please follow this https://www.twilio.com/docs/libraries/python.
-2. To install the Flask framework, please use this https://pypi.org/project/Flask/.
+1. To install Twilio library, please follow this [link] (https://www.twilio.com/docs/libraries/python).
+2. To install the Flask framework, please use this [link] (https://pypi.org/project/Flask/).
 
 ### Step two
 
