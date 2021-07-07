@@ -34,11 +34,6 @@ def voice():
             # If the caller didn't choose 1 or 2, apologize and ask them again
             resp.say("Sorry, I don't understand that choice.")
 
-    # Start our <Gather> verb
-    #gather = Gather(num_digits=1)
-    #gather.say('For sales, press 1. For support, press 2.')
-    #resp.append(gather)
-
     # If the user doesn't select an option, redirect them into a loop
     resp.redirect('/voice')
 
