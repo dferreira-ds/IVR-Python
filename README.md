@@ -1,5 +1,5 @@
 # IVR using Python, Twilio and Ngrok
-This repository shows how to create a simple IVR using Python and Twilio
+This repository shows how to create a simple IVR using Python and Twilio. Make sure to have a Twilio account and a phone number in your account.
 
 ### Step one
 
