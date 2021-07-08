@@ -9,7 +9,6 @@ def message():
     gather = Gather(timeout=5, numDigits='1', action='/voice')
     gather.say('For sales, press 1, For support, press 2.')
     resp.append(gather)
-    #resp.redirect('/voice')
     return str(resp)
 
 @app.route("/voice", methods=['GET', 'POST'])
